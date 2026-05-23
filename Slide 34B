@@ -1,0 +1,16 @@
+#Slide 34B
+#Write a program that receives a password from the user.The program will check whether the password is valid.
+#A valid password must have at least 8 characters.
+#The first character must be either 'Z' or 'C', and the password must end with '$'.
+#If the password is valid, the program will print 'PASSWORD STRONG'.
+#In any other case, the program will state why the password is not good."
+
+password= input("Please enter a password: ")
+if len(password) < 8:
+    print("Password is too short")
+elif password[0]!="Z" and password[0]!="C" :
+    print("Password must start with Z or C")
+elif password[-1]!= "$":
+    print("Password must end with $")
+else:
+    print("STRONG PASSWORD")

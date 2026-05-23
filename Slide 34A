@@ -1,0 +1,17 @@
+#slide 34A
+##Write a program that receives the user's age.
+#if the age is less than 0, the program will change it to 0.
+#if the ageis greater than 120, the program will change it to 120.
+#if the age is between 0–18 (inclusive), the program will print 'teenager'.
+#if the age is between 19–120 (inclusive), the program will print 'adult'
+Age = input("Please enter your age")
+if int(Age) < 0:
+    Age = 0
+    print("Age is: ", Age)
+elif int(Age) > 120:
+    Age = 120
+    print("Age is: ", Age)
+elif  int(Age) >= 0 and int(Age) <= 18:
+    print("teenager")
+elif int(Age) > 18 and int(Age) <= 120:
+    print("adult")

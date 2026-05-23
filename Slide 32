@@ -1,0 +1,10 @@
+#string from user
+#slide32
+name = input("Enter your name and last name: ")
+namelen=len(name)
+if namelen < 4:
+    print("too short")
+elif namelen > 9:
+    print("too long")
+else: 
+    print("OK")

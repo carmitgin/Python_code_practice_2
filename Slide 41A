@@ -1,0 +1,5 @@
+#slide 41
+#create a loop that print all numbers from -5 to 8, 8 included.
+for i in range(-5,9):    
+        print(i)
+

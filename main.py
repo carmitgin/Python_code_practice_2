@@ -1,4 +1,22 @@
 
+##Print 'hello world'
+print("Hello World!")
+
+# ① Variables — store data with a name
+
+username  = "Papaya2"
+age       = 32
+connected = True
+score     = 92
+
+print("User:", username)
+print("Age:",  age)
+print("connected:", connected)
+print("Score:", score)
+
+#input excersize
+name = input("Enter your name: ")
+print("Hello, " + name + "!")
 
 #input bonus excersize:
 name = input("Enter your name: ")
