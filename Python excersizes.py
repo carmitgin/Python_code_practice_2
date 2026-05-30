@@ -14,8 +14,3 @@ avg_age= [sum(ages)/len(ages)]
 print("ages are:", name1, "-" , str(age1), name2, "-" , str(age2), name3, "-" , str(age3),)
 print("avg age is: ", avg_age)
 
-
-#slide 22
-#Input a string, type first, last , middle letters
-name1 = input("1st person please enter your first name: ")
-print(name1 [0])

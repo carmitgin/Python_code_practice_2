@@ -16,6 +16,7 @@ print(text[-1])
 print(text[5:])
 
 #string from user
+#slide32
 name = input("Enter your name and last name: ")
 namelen=len(name)
 if namelen < 4:

@@ -1,5 +1,7 @@
 ##Slide26B
-##
+##"Write a program that receives a string.
+##The program checks whether its first character is 'A'.
+##If so, it changes it to 'a' and prints it."
 texttocheck = input("Please enter any word: ")
 if texttocheck[0] == "A":
     texttocheck = "a" + texttocheck[1:]

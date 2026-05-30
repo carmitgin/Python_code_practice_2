@@ -1,4 +1,5 @@
-#string from user
+#Slide 32
+# string from user
 #slide32
 name = input("Enter your name and last name: ")
 namelen=len(name)

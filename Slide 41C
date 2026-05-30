@@ -1,4 +1,4 @@
-#sluide41C
+#slide 41C
 #Write a program that receives an email address from the user.
 #The program will print how many times the '@' symbol appears in the received address.
 email = input("Please enter your email address: ")
